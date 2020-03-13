@@ -1,0 +1,712 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC34A03123F527E600E3D01E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34A03023F527E600E3D01E /* AppDelegate.swift */; };
+		FC34A03323F527E600E3D01E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34A03223F527E600E3D01E /* SceneDelegate.swift */; };
+		FC34A03523F527E600E3D01E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34A03423F527E600E3D01E /* ViewController.swift */; };
+		FC34A03823F527E600E3D01E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC34A03623F527E600E3D01E /* Main.storyboard */; };
+		FC34A03A23F527F200E3D01E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC34A03923F527F200E3D01E /* Assets.xcassets */; };
+		FC34A03D23F527F200E3D01E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC34A03B23F527F200E3D01E /* LaunchScreen.storyboard */; };
+		FC34A04823F527F300E3D01E /* Paysez_Webview_channelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34A04723F527F300E3D01E /* Paysez_Webview_channelTests.swift */; };
+		FC34A05323F527F300E3D01E /* Paysez_Webview_channelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC34A05223F527F300E3D01E /* Paysez_Webview_channelUITests.swift */; };
+		FCFD6D7A23F6E831009E95EF /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = FCFD6D7923F6E831009E95EF /* CryptoSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC34A04423F527F300E3D01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC34A02523F527E600E3D01E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC34A02C23F527E600E3D01E;
+			remoteInfo = "Paysez Webview channel";
+		};
+		FC34A04F23F527F300E3D01E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC34A02523F527E600E3D01E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC34A02C23F527E600E3D01E;
+			remoteInfo = "Paysez Webview channel";
+		};
+		FCFD6D4923F6E719009E95EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFD6D4123F6E719009E95EF /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE45519693E190098E6F3;
+			remoteInfo = CryptoSwift;
+		};
+		FCFD6D4B23F6E719009E95EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFD6D4123F6E719009E95EF /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 75211F92207249D8004E41F8;
+			remoteInfo = "CryptoSwift-TestHostApp";
+		};
+		FCFD6D4D23F6E719009E95EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFD6D4123F6E719009E95EF /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 754BE46019693E190098E6F3;
+			remoteInfo = CryptoSwiftTests;
+		};
+		FCFD6D4F23F6E719009E95EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFD6D4123F6E719009E95EF /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7595C14A2072E48C00EA1A5F;
+			remoteInfo = "TestsPerformance-Mac";
+		};
+		FCFD6D5123F6E719009E95EF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCFD6D4123F6E719009E95EF /* CryptoSwift.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7564F0602072EAEB00CA5A96;
+			remoteInfo = "TestsPerformance-iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC34A02D23F527E600E3D01E /* Paysez Webview channel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Paysez Webview channel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC34A03023F527E600E3D01E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC34A03223F527E600E3D01E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC34A03423F527E600E3D01E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC34A03723F527E600E3D01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC34A03923F527F200E3D01E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC34A03C23F527F200E3D01E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC34A03E23F527F200E3D01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC34A04323F527F300E3D01E /* Paysez Webview channelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paysez Webview channelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC34A04723F527F300E3D01E /* Paysez_Webview_channelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paysez_Webview_channelTests.swift; sourceTree = "<group>"; };
+		FC34A04923F527F300E3D01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC34A04E23F527F300E3D01E /* Paysez Webview channelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Paysez Webview channelUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC34A05223F527F300E3D01E /* Paysez_Webview_channelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Paysez_Webview_channelUITests.swift; sourceTree = "<group>"; };
+		FC34A05423F527F300E3D01E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCFD6D4023F6E6FC009E95EF /* CryptoSwift */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CryptoSwift; sourceTree = "<group>"; };
+		FCFD6D4123F6E719009E95EF /* CryptoSwift.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CryptoSwift.xcodeproj; path = CryptoSwift/CryptoSwift.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC34A02A23F527E600E3D01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCFD6D7A23F6E831009E95EF /* CryptoSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC34A04023F527F300E3D01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC34A04B23F527F300E3D01E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		58A2FCEBD63FE7ED25A80FEF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCFD6D4123F6E719009E95EF /* CryptoSwift.xcodeproj */,
+				FCFD6D4023F6E6FC009E95EF /* CryptoSwift */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8757FF15BBE31D3A20644668 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FC34A02423F527E600E3D01E = {
+			isa = PBXGroup;
+			children = (
+				FC34A02F23F527E600E3D01E /* Paysez Webview channel */,
+				FC34A04623F527F300E3D01E /* Paysez Webview channelTests */,
+				FC34A05123F527F300E3D01E /* Paysez Webview channelUITests */,
+				FC34A02E23F527E600E3D01E /* Products */,
+				8757FF15BBE31D3A20644668 /* Pods */,
+				58A2FCEBD63FE7ED25A80FEF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC34A02E23F527E600E3D01E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC34A02D23F527E600E3D01E /* Paysez Webview channel.app */,
+				FC34A04323F527F300E3D01E /* Paysez Webview channelTests.xctest */,
+				FC34A04E23F527F300E3D01E /* Paysez Webview channelUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC34A02F23F527E600E3D01E /* Paysez Webview channel */ = {
+			isa = PBXGroup;
+			children = (
+				FC34A03023F527E600E3D01E /* AppDelegate.swift */,
+				FC34A03223F527E600E3D01E /* SceneDelegate.swift */,
+				FC34A03423F527E600E3D01E /* ViewController.swift */,
+				FC34A03623F527E600E3D01E /* Main.storyboard */,
+				FC34A03923F527F200E3D01E /* Assets.xcassets */,
+				FC34A03B23F527F200E3D01E /* LaunchScreen.storyboard */,
+				FC34A03E23F527F200E3D01E /* Info.plist */,
+			);
+			path = "Paysez Webview channel";
+			sourceTree = "<group>";
+		};
+		FC34A04623F527F300E3D01E /* Paysez Webview channelTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC34A04723F527F300E3D01E /* Paysez_Webview_channelTests.swift */,
+				FC34A04923F527F300E3D01E /* Info.plist */,
+			);
+			path = "Paysez Webview channelTests";
+			sourceTree = "<group>";
+		};
+		FC34A05123F527F300E3D01E /* Paysez Webview channelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FC34A05223F527F300E3D01E /* Paysez_Webview_channelUITests.swift */,
+				FC34A05423F527F300E3D01E /* Info.plist */,
+			);
+			path = "Paysez Webview channelUITests";
+			sourceTree = "<group>";
+		};
+		FCFD6D4223F6E719009E95EF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FCFD6D4A23F6E719009E95EF /* CryptoSwift.framework */,
+				FCFD6D4C23F6E719009E95EF /* CryptoSwift-TestHostApp.app */,
+				FCFD6D4E23F6E719009E95EF /* CryptoSwiftTests.xctest */,
+				FCFD6D5023F6E719009E95EF /* TestsPerformance-Mac.xctest */,
+				FCFD6D5223F6E719009E95EF /* TestsPerformance-iOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC34A02C23F527E600E3D01E /* Paysez Webview channel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC34A05723F527F300E3D01E /* Build configuration list for PBXNativeTarget "Paysez Webview channel" */;
+			buildPhases = (
+				FC34A02923F527E600E3D01E /* Sources */,
+				FC34A02A23F527E600E3D01E /* Frameworks */,
+				FC34A02B23F527E600E3D01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Paysez Webview channel";
+			packageProductDependencies = (
+				FCFD6D7923F6E831009E95EF /* CryptoSwift */,
+			);
+			productName = "Paysez Webview channel";
+			productReference = FC34A02D23F527E600E3D01E /* Paysez Webview channel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC34A04223F527F300E3D01E /* Paysez Webview channelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC34A05A23F527F300E3D01E /* Build configuration list for PBXNativeTarget "Paysez Webview channelTests" */;
+			buildPhases = (
+				FC34A03F23F527F300E3D01E /* Sources */,
+				FC34A04023F527F300E3D01E /* Frameworks */,
+				FC34A04123F527F300E3D01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC34A04523F527F300E3D01E /* PBXTargetDependency */,
+			);
+			name = "Paysez Webview channelTests";
+			productName = "Paysez Webview channelTests";
+			productReference = FC34A04323F527F300E3D01E /* Paysez Webview channelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FC34A04D23F527F300E3D01E /* Paysez Webview channelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC34A05D23F527F300E3D01E /* Build configuration list for PBXNativeTarget "Paysez Webview channelUITests" */;
+			buildPhases = (
+				FC34A04A23F527F300E3D01E /* Sources */,
+				FC34A04B23F527F300E3D01E /* Frameworks */,
+				FC34A04C23F527F300E3D01E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC34A05023F527F300E3D01E /* PBXTargetDependency */,
+			);
+			name = "Paysez Webview channelUITests";
+			productName = "Paysez Webview channelUITests";
+			productReference = FC34A04E23F527F300E3D01E /* Paysez Webview channelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC34A02523F527E600E3D01E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "taku coder";
+				TargetAttributes = {
+					FC34A02C23F527E600E3D01E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					FC34A04223F527F300E3D01E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FC34A02C23F527E600E3D01E;
+					};
+					FC34A04D23F527F300E3D01E = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FC34A02C23F527E600E3D01E;
+					};
+				};
+			};
+			buildConfigurationList = FC34A02823F527E600E3D01E /* Build configuration list for PBXProject "Paysez Webview channel" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC34A02423F527E600E3D01E;
+			productRefGroup = FC34A02E23F527E600E3D01E /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FCFD6D4223F6E719009E95EF /* Products */;
+					ProjectRef = FCFD6D4123F6E719009E95EF /* CryptoSwift.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				FC34A02C23F527E600E3D01E /* Paysez Webview channel */,
+				FC34A04223F527F300E3D01E /* Paysez Webview channelTests */,
+				FC34A04D23F527F300E3D01E /* Paysez Webview channelUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FCFD6D4A23F6E719009E95EF /* CryptoSwift.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = CryptoSwift.framework;
+			remoteRef = FCFD6D4923F6E719009E95EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FCFD6D4C23F6E719009E95EF /* CryptoSwift-TestHostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "CryptoSwift-TestHostApp.app";
+			remoteRef = FCFD6D4B23F6E719009E95EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FCFD6D4E23F6E719009E95EF /* CryptoSwiftTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = CryptoSwiftTests.xctest;
+			remoteRef = FCFD6D4D23F6E719009E95EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FCFD6D5023F6E719009E95EF /* TestsPerformance-Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-Mac.xctest";
+			remoteRef = FCFD6D4F23F6E719009E95EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		FCFD6D5223F6E719009E95EF /* TestsPerformance-iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "TestsPerformance-iOS.xctest";
+			remoteRef = FCFD6D5123F6E719009E95EF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC34A02B23F527E600E3D01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC34A03D23F527F200E3D01E /* LaunchScreen.storyboard in Resources */,
+				FC34A03A23F527F200E3D01E /* Assets.xcassets in Resources */,
+				FC34A03823F527E600E3D01E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC34A04123F527F300E3D01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC34A04C23F527F300E3D01E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC34A02923F527E600E3D01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC34A03523F527E600E3D01E /* ViewController.swift in Sources */,
+				FC34A03123F527E600E3D01E /* AppDelegate.swift in Sources */,
+				FC34A03323F527E600E3D01E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC34A03F23F527F300E3D01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC34A04823F527F300E3D01E /* Paysez_Webview_channelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC34A04A23F527F300E3D01E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC34A05323F527F300E3D01E /* Paysez_Webview_channelUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC34A04523F527F300E3D01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC34A02C23F527E600E3D01E /* Paysez Webview channel */;
+			targetProxy = FC34A04423F527F300E3D01E /* PBXContainerItemProxy */;
+		};
+		FC34A05023F527F300E3D01E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC34A02C23F527E600E3D01E /* Paysez Webview channel */;
+			targetProxy = FC34A04F23F527F300E3D01E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC34A03623F527E600E3D01E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC34A03723F527E600E3D01E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC34A03B23F527F200E3D01E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC34A03C23F527F200E3D01E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC34A05523F527F300E3D01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC34A05623F527F300E3D01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC34A05823F527F300E3D01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paysez Webview channel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paysez.web.Paysez-Webview-channel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC34A05923F527F300E3D01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paysez Webview channel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paysez.web.Paysez-Webview-channel";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FC34A05B23F527F300E3D01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paysez Webview channelTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paysez.web.Paysez-Webview-channelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paysez Webview channel.app/Paysez Webview channel";
+			};
+			name = Debug;
+		};
+		FC34A05C23F527F300E3D01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paysez Webview channelTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paysez.web.Paysez-Webview-channelTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Paysez Webview channel.app/Paysez Webview channel";
+			};
+			name = Release;
+		};
+		FC34A05E23F527F300E3D01E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paysez Webview channelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paysez.web.Paysez-Webview-channelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paysez Webview channel";
+			};
+			name = Debug;
+		};
+		FC34A05F23F527F300E3D01E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Paysez Webview channelUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.paysez.web.Paysez-Webview-channelUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Paysez Webview channel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC34A02823F527E600E3D01E /* Build configuration list for PBXProject "Paysez Webview channel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC34A05523F527F300E3D01E /* Debug */,
+				FC34A05623F527F300E3D01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC34A05723F527F300E3D01E /* Build configuration list for PBXNativeTarget "Paysez Webview channel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC34A05823F527F300E3D01E /* Debug */,
+				FC34A05923F527F300E3D01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC34A05A23F527F300E3D01E /* Build configuration list for PBXNativeTarget "Paysez Webview channelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC34A05B23F527F300E3D01E /* Debug */,
+				FC34A05C23F527F300E3D01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC34A05D23F527F300E3D01E /* Build configuration list for PBXNativeTarget "Paysez Webview channelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC34A05E23F527F300E3D01E /* Debug */,
+				FC34A05F23F527F300E3D01E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FCFD6D7923F6E831009E95EF /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = CryptoSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FC34A02523F527E600E3D01E /* Project object */;
+}
